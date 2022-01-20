@@ -1,0 +1,119 @@
+.main {
+    &-grid {
+        &-one {
+            height: 350px;
+        }
+        &-two {
+            padding: 2rem 0;
+            height: 350px;
+            text-align: center;
+            &-h3 {
+                font-family: $fontFraunces;
+                padding: 1rem 0;
+                font-size: 1.9rem;
+                font-weight: 900;
+                color: $veryDarkDesaturatedBlue;
+            }
+            &-p {
+                max-width: 500px;
+                margin-inline: auto;
+                font-family: $fontBarlow;
+                padding: 0 1rem 1.5rem;
+                font-size: .9rem;
+                color: $veryDarkGrayishBlue;
+                line-height: 1.5;
+            }
+            & a {
+                text-transform: uppercase;
+                font-family: $fontFraunces;
+                font-weight: 700;
+                color: $veryDarkDesaturatedBlue;
+                padding: 0 .1rem;
+                box-shadow: inset 0 -.3rem hsla(51, 100%, 49%, 0.5);
+                transition: $trans;
+                &:hover {
+                    transition: $trans;
+                    box-shadow: inset 0 -.3rem $yellow;
+                }
+            }
+        }
+        &-three {
+            height: 350px;
+        }
+        &-four {
+            padding: 2rem 0;
+            height: 350px;
+            text-align: center;
+            &-h3 {
+                font-family: $fontFraunces;
+                padding: 1rem 0;
+                font-size: 1.9rem;
+                font-weight: 900;
+                color: $veryDarkDesaturatedBlue;
+            }
+            &-p {
+                max-width: 500px;
+                margin-inline: auto;
+                font-family: $fontBarlow;
+                padding: 0 1rem 1.5rem;
+                font-size: .9rem;
+                color: $veryDarkGrayishBlue;
+            }
+            & a {
+                text-transform: uppercase;
+                font-family: $fontFraunces;
+                font-weight: 700;
+                color: $veryDarkDesaturatedBlue;
+                padding: 0 .1rem;
+                box-shadow: inset 0 -.3rem hsla(7, 99%, 70%, 0.5);
+                transition: $trans;
+                &:hover {
+                    transition: $trans;
+                    box-shadow: inset 0 -.3rem $softRed;
+                }
+            }
+        }
+        &-five {
+            height: 600px;
+            padding-top: 25rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-h3 {
+                font-family: $fontFraunces;
+                padding-bottom: 1.5rem;
+                font-size: 2rem;
+                color: $veryDarkDesaturatedBlue;
+            }
+            &-p {
+                padding: 0 3rem;
+                font-style: .9rem;
+                font-family: $fontBarlow;
+                color: $veryDarkGrayishBlue;
+            }
+        }
+        &-six {
+            height: 600px;
+            padding-top: 25rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-h3 {
+                font-family: $fontFraunces;
+                padding-bottom: 1.5rem;
+                font-size: 2rem;
+                color: $veryDarkDesaturatedBlue;
+            }
+            &-p {
+                padding: 0 3rem;
+                font-style: .9rem;
+                font-family: $fontBarlow;
+                color: $veryDarkGrayishBlue;
+            }
+        }
+    }
+}

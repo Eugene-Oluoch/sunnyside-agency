@@ -1,0 +1,102 @@
+.testimonials {
+    &-title {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 2rem 0;
+        font-family: $fontFraunces;
+        font-weight: 900;
+        color: $veryDarkGrayishBlue;
+    }
+    &-user {
+        &-emily {
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            & img {
+                border-radius: 50%;
+                height: 4rem;
+            }
+            &-p {
+                max-width: 400px;
+                padding: 1rem 2.5rem;
+                font-family: $fontBarlow;
+                color: $veryDarkDesaturatedBlue;
+            }
+            &-h4 {
+                padding: 1rem 0 0.5rem;
+                font-family: $fontFraunces;
+                color: $veryDarkDesaturatedBlue;
+                font-weight: 900;
+            }
+            &-work {
+                font-size: .7rem;
+                font-family: $fontBarlow;
+                color: $veryDarkGrayishBlue;
+                padding-bottom: 2rem;
+            }
+        }
+        &-thomas {
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            & img {
+                border-radius: 50%;
+                height: 4rem;
+            }
+            &-p {
+                max-width: 400px;
+                padding: 1rem 2.5rem;
+                font-family: $fontBarlow;
+                color: $veryDarkDesaturatedBlue;
+            }
+            &-h4 {
+                padding: 1rem 0 0.5rem;
+                font-family: $fontFraunces;
+                color: $veryDarkDesaturatedBlue;
+                font-weight: 900;
+            }
+            &-work {
+                font-size: .7rem;
+                font-family: $fontBarlow;
+                color: $veryDarkGrayishBlue;
+                padding-bottom: 2rem;
+            }
+        }
+        &-jennie {
+            padding-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            & img {
+                border-radius: 50%;
+                height: 4rem;
+            }
+            &-p {
+                max-width: 400px;
+                padding: 1rem 2.5rem;
+                font-family: $fontBarlow;
+                color: $veryDarkDesaturatedBlue;
+            }
+            &-h4 {
+                padding: 1rem 0 0.5rem;
+                font-family: $fontFraunces;
+                color: $veryDarkDesaturatedBlue;
+                font-weight: 900;
+            }
+            &-work {
+                font-size: .7rem;
+                font-family: $fontBarlow;
+                color: $veryDarkGrayishBlue;
+                padding-bottom: 5rem;
+            }
+        }
+    }
+}

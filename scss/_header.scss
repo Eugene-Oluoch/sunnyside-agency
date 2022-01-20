@@ -1,0 +1,72 @@
+.header {
+    height: 100vh;
+    max-width: 1440px;
+    margin-inline: auto;
+    &-nav {
+        max-width: 1200px;
+        margin-inline: auto;
+        padding: 1rem 1.5rem;
+        &-logo {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &-hamburger {
+                cursor: pointer;
+                & span {
+                    display: block;
+                    background-color: white;
+                    width: 26px;
+                    height: 2px;
+                    &:not(:last-child) {
+                        margin-bottom: .42rem;
+                    }
+                }
+            }
+        }
+        &-menu {
+            &-ul {
+                margin-top: .4rem;
+                border-radius: .2rem;
+                font-family: $fontBarlow;
+                & li {
+                    padding: .8rem;
+                }
+            }
+        }
+    }
+    &-title {
+        line-height: 1;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &-h1 {
+            text-align: center;
+            font-family: $fontFraunces;
+            font-size: 2.8rem;
+            text-transform: uppercase;
+            color: white;
+        }
+        & img {
+            padding-top: 5rem;
+            animation: bounce 3s ease-in-out 3;
+        }
+    }
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-50px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}

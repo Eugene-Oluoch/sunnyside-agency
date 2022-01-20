@@ -1,0 +1,235 @@
+@media all and (max-width:768px) {
+    .header {
+        background-image: url(../images/mobile/image-header.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        &-nav {
+            display: flex;
+            flex-direction: column;
+        }
+        &-nav-menu {
+            &-ul {
+                display: none;
+                list-style-type: none;
+                & li {
+                    background-color: white;
+                    display: block;
+                    max-width: 700px;
+                    text-align: center;
+                    margin-inline: auto;
+                    & a {
+                        color: $grayishBlue;
+                    }
+                }
+                &-contact {
+                    & a {
+                        background-color: $yellow;
+                        padding: .5rem 1rem;
+                        border-radius: 1rem;
+                        font-family: $fontFraunces;
+                        color: black !important;
+                    }
+                }
+            }
+        }
+    }
+    .main {
+        &-grid {
+            &-one {
+                background-image: url(../images/mobile/image-transform.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            &-three {
+                background-image: url(../images/mobile/image-stand-out.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            &-five {
+                background-image: url(../images/mobile/image-graphic-design.jpg);
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &-six {
+                background-image: url(../images/mobile/image-photography.jpg);
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+    .images {
+        &-grid {
+            &-one {
+                background-image: url(../images/mobile/image-gallery-milkbottles.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            &-two {
+                background-image: url(../images/mobile/image-gallery-orange.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            &-three {
+                background-image: url(../images/mobile/image-gallery-cone.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            &-four {
+                background-image: url(../images/mobile/image-gallery-sugar-cubes.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+    .images {
+        &-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(200px, 500px));
+            grid-template-rows: repeat(2, 200px);
+        }
+    }
+}
+
+@media all and (min-width:568px) {
+    .header {
+        background-image: url(../images/desktop/image-header.jpg);
+        background-size: cover;
+        background-position: bottom;
+    }
+    .main {
+        &-grid {
+            &-one {
+                background-image: url(../images/desktop/image-transform.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+            &-three {
+                background-image: url(../images/desktop/image-stand-out.jpg);
+                background-size: cover;
+                background-position: bottom;
+                background-repeat: no-repeat;
+            }
+            &-five {
+                background-image: url(../images/desktop/image-graphic-design.jpg);
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            &-six {
+                background-image: url(../images/desktop/image-photography.jpg);
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+    .images {
+        &-grid {
+            &-one {
+                background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+                background-size: cover;
+                background-position: bottom;
+            }
+            &-two {
+                background-image: url(../images/desktop/image-gallery-orange.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            &-three {
+                background-image: url(../images/desktop/image-gallery-cone.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+            &-four {
+                background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}
+
+@media all and (min-width:768px) {
+    #hamburger {
+        display: none;
+    }
+    .header-nav {
+        &-menu {
+            &-ul {
+                display: block;
+                & li {
+                    display: inline-block;
+                    & a {
+                        color: white;
+                    }
+                }
+                &-contact {
+                    & a {
+                        background-color: white;
+                        padding: .5rem 1rem;
+                        border-radius: 1rem;
+                        font-family: $fontFraunces;
+                        color: black !important;
+                        transition: $trans;
+                    }
+                }
+            }
+        }
+    }
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header-title {
+        padding-top: 5rem;
+    }
+    .main-grid {
+        max-width: 1440px;
+        margin-inline: auto;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(384px, 720px));
+        grid-template-rows: 350px 350px 600px;
+        &-one {
+            grid-column: 2/3;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        &-three {
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        &-four {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+    }
+    .testimonials {
+        background-color: white;
+        &-user {
+            max-width: 900px;
+            margin-inline: auto;
+            display: grid;
+            grid-template-columns: repeat(3, minmax(256px, 300px));
+            &-thomas {
+                margin-top: .5rem;
+            }
+            &-jennie {
+                margin-top: 2.8rem;
+            }
+        }
+    }
+    .images {
+        &-grid {
+            max-width: 1440px;
+            margin-inline: auto;
+            display: grid;
+            grid-template-columns: repeat(4, minmax(200px, 360px));
+            grid-template-rows: 500px;
+        }
+    }
+}
